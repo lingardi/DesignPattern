@@ -1,0 +1,17 @@
+package com.example.lingard.ipctest.StrategyP;
+
+/**
+ * Created by lingard on 2019/3/11.
+ */
+
+public class Context {
+    private Strategy strategy;
+
+    public Context(Strategy strategy){
+        this.strategy = strategy;
+    }
+
+    public void operate(){
+        this.strategy.operate();
+    }
+}
