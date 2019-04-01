@@ -14,7 +14,6 @@ public abstract class Handler {
         } else {
             if (this.handler != null) {  //有后续环节，才把请求往后递送
 
-
                 this.handler.handlerMessage(woman);
             } else { //已经没有后续处理人了，不用处理了
                 System.out.println("---没地方请示了，按不同意处理---\n");

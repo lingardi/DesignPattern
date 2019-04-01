@@ -3,7 +3,8 @@ package com.example.lingard.ipctest.StrategyP;
 /**
  * Created by lingard on 2019/3/11.
  * 如果系统中的一个策略家族的具体策略数量超过4个，则需要考虑使用混合模式，解决
- 策略类膨胀和对外暴露的问题
+ * 策略类膨胀和对外暴露的问题
+ * Context承载所有的策略实现类，通过委派关系，策略模式是使用继承和多态
  */
 
 public class ZhaoYun {

@@ -12,7 +12,7 @@ import com.example.lingard.ipctest.FactoryMethodP.FemaleFactory;
  * 覆写equals方法和hashCode方法，而且执行效率还比较低
  *
  * 对象池着重在对象的复用上，池中的每个对象是可替换的，从同一个池中获得A对象和B对象
- * 对客户端来说是完全相同的，它主要解决复用，而享元模式在主要解决的对象的共享问题
+ * 对客户端来说是完全相同的，它主要解决复用，而享元模式在主要解决的对象的共享问题 HashMap
  */
 
 public class Client {

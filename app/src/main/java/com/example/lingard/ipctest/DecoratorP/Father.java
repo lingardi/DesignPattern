@@ -1,5 +1,9 @@
 package com.example.lingard.ipctest.DecoratorP;
 
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+
 /**
  * Created by lingard on 2019/3/11.
  */
