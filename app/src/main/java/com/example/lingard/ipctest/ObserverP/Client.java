@@ -17,5 +17,6 @@ public class Client {
         Observer observer1 = new Lisi();
 //        hanfeizi.addObserver(observer1);
         hanfeizi.havebreakfast();
+
     }
 }
